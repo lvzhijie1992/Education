@@ -67,7 +67,7 @@
          UIBlurEffect *blurEffect = [UIBlurEffect effectWithStyle:UIBlurEffectStyleLight];
          _blurEffect = [[UIVisualEffectView alloc] initWithEffect:blurEffect];
         _blurEffect.frame = CGRectMake(0, 0, kSCREENWIDTH, HEADERIMAGEVIEWH);
-        _blurEffect.alpha = 0;//lalals
+        _blurEffect.alpha = 0;//lalalsggghh
     }
     return _blurEffect;
 }
