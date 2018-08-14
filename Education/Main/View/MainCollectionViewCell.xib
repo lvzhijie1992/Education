@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="maincell" id="gTV-IL-0wX" customClass="MainCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="150" height="145"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="150" height="145"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="测试" translatesAutoresizingMaskIntoConstraints="NO" id="IMN-9y-e8c">
+                        <rect key="frame" x="0.0" y="0.0" width="150" height="87.5"/>
+                        <color key="backgroundColor" red="0.97300761940000002" green="0.75575584169999999" blue="0.2726694643" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="IMN-9y-e8c" secondAttribute="height" multiplier="1.71:1" id="wCO-ch-TNY"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¥0.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hfw-SE-GkJ">
+                        <rect key="frame" x="4" y="121" width="38" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="cbu-ku-HUh"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.97300761940000002" green="0.75575584169999999" blue="0.2726694643" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="128人在学" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="34X-0k-vdS">
+                        <rect key="frame" x="88.5" y="120" width="57.5" height="17"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="17" id="HO2-yE-t1k"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="不怕太阳晒 不怕风雨大不怕太阳晒 不怕风雨大" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Bj-bh-sXB">
+                        <rect key="frame" x="4" y="96" width="142" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="hfw-SE-GkJ" secondAttribute="bottom" constant="8" id="0SC-w7-F31"/>
+                <constraint firstAttribute="bottom" secondItem="34X-0k-vdS" secondAttribute="bottom" constant="8" id="275-j5-rEi"/>
+                <constraint firstAttribute="trailing" secondItem="34X-0k-vdS" secondAttribute="trailing" constant="4" id="5If-aB-e4c"/>
+                <constraint firstItem="7Bj-bh-sXB" firstAttribute="top" secondItem="IMN-9y-e8c" secondAttribute="bottom" constant="8.5" id="GAX-Ec-sgA"/>
+                <constraint firstItem="hfw-SE-GkJ" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="4" id="JfW-vg-JjO"/>
+                <constraint firstAttribute="trailing" secondItem="IMN-9y-e8c" secondAttribute="trailing" id="Jp8-V4-P97"/>
+                <constraint firstAttribute="trailing" secondItem="7Bj-bh-sXB" secondAttribute="trailing" constant="4" id="RnD-Bk-BJr"/>
+                <constraint firstItem="IMN-9y-e8c" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Seh-Nf-vle"/>
+                <constraint firstItem="IMN-9y-e8c" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="acn-zZ-ISC"/>
+                <constraint firstItem="7Bj-bh-sXB" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="4" id="agA-if-409"/>
+                <constraint firstAttribute="bottom" secondItem="7Bj-bh-sXB" secondAttribute="bottom" constant="33" id="kxL-fL-vzQ"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="SEy-5g-ep8"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                    <integer key="value" value="6"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                    <color key="value" red="0.92148774860000005" green="0.92162030939999995" blue="0.92145884040000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                    <real key="value" value="1"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="测试" width="146" height="85"/>
+    </resources>
+</document>
