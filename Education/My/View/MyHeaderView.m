@@ -17,4 +17,7 @@
     self.detailView.layer.shadowOffset = CGSizeMake(2, 2);
 }
 
+- (IBAction)collectBtn_click:(id)sender {
+    self.collect_click();
+}
 @end

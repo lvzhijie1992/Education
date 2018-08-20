@@ -48,10 +48,34 @@
             </objects>
             <point key="canvasLocation" x="692" y="-296"/>
         </scene>
+        <!--More Class Collection View Controller-->
+        <scene sceneID="fVb-bj-0Ty">
+            <objects>
+                <collectionViewController storyboardIdentifier="MoreClass_ID" id="Ahq-kD-EO9" customClass="MoreClassCollectionViewController" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="naa-fd-6cO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="sxg-dG-R6K">
+                            <size key="itemSize" width="50" height="50"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells/>
+                        <connections>
+                            <outlet property="dataSource" destination="Ahq-kD-EO9" id="v7t-qK-NfL"/>
+                            <outlet property="delegate" destination="Ahq-kD-EO9" id="otc-e9-XPk"/>
+                        </connections>
+                    </collectionView>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xWA-B1-FF9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1815" y="-440"/>
+        </scene>
         <!--Set Table View Controller-->
         <scene sceneID="JCx-Z6-F3K">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="XFd-eM-aXe" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tableViewController storyboardIdentifier="set_ID" id="Hmb-CT-yTH" customClass="SetTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="grouped" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="ciY-OK-uVJ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -269,6 +293,7 @@
                         </connections>
                     </tableView>
                 </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XFd-eM-aXe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="692" y="380.95952023988008"/>
         </scene>

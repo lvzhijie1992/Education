@@ -23,7 +23,25 @@
 		D02E719521227B920007CEC7 /* CYTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D02E718B21227B920007CEC7 /* CYTabBarController.m */; };
 		D02E719821227B9B0007CEC7 /* PlusAnimate.m in Sources */ = {isa = PBXBuildFile; fileRef = D02E719621227B9B0007CEC7 /* PlusAnimate.m */; };
 		D02E719B21227C020007CEC7 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = D02E719A21227C020007CEC7 /* TabBarController.m */; };
+		D02E719E2122A5B90007CEC7 /* CollectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D02E719D2122A5B90007CEC7 /* CollectViewController.m */; };
+		D02E71A22122AA990007CEC7 /* CollectTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D02E71A02122AA990007CEC7 /* CollectTableViewCell.m */; };
+		D02E71A32122AA990007CEC7 /* CollectTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D02E71A12122AA990007CEC7 /* CollectTableViewCell.xib */; };
+		D02E71AB2122D2400007CEC7 /* ChooseCourseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D02E71AA2122D2400007CEC7 /* ChooseCourseViewController.m */; };
+		D02E71B22122D2D60007CEC7 /* CourseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D02E71B12122D2D60007CEC7 /* CourseTableViewController.m */; };
 		D03A297F211ED002007626A5 /* NewMainScrollerView.m in Sources */ = {isa = PBXBuildFile; fileRef = D03A297E211ED002007626A5 /* NewMainScrollerView.m */; };
+		D03D96F82125072F00A42791 /* MoreClassCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D03D96F72125072F00A42791 /* MoreClassCollectionViewController.m */; };
+		D03D96FD21250AF100A42791 /* MoreHeaderCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D03D96FB21250AF100A42791 /* MoreHeaderCollectionReusableView.m */; };
+		D03D96FE21250AF100A42791 /* MoreHeaderCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D03D96FC21250AF100A42791 /* MoreHeaderCollectionReusableView.xib */; };
+		D03D970221250C4300A42791 /* MoreClassCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D03D970021250C4300A42791 /* MoreClassCollectionViewCell.m */; };
+		D03D970321250C4300A42791 /* MoreClassCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D03D970121250C4300A42791 /* MoreClassCollectionViewCell.xib */; };
+		D03D970721250EC900A42791 /* MoreFooterCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D03D970521250EC900A42791 /* MoreFooterCollectionReusableView.m */; };
+		D03D970821250EC900A42791 /* MoreFooterCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D03D970621250EC900A42791 /* MoreFooterCollectionReusableView.xib */; };
+		D09ADE562124064400E047CE /* CourseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D09ADE542124064400E047CE /* CourseTableViewCell.m */; };
+		D09ADE572124064400E047CE /* CourseTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D09ADE552124064400E047CE /* CourseTableViewCell.xib */; };
+		D09ADE61212410DE00E047CE /* XLSlideSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = D09ADE59212410DC00E047CE /* XLSlideSwitch.m */; };
+		D09ADE62212410DE00E047CE /* XLSlideSegmented.m in Sources */ = {isa = PBXBuildFile; fileRef = D09ADE5A212410DC00E047CE /* XLSlideSegmented.m */; };
+		D09ADE63212410DE00E047CE /* XLSegmentedSlideSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = D09ADE5C212410DC00E047CE /* XLSegmentedSlideSwitch.m */; };
+		D09ADE64212410DE00E047CE /* XLSlideSegmentedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = D09ADE5D212410DD00E047CE /* XLSlideSegmentedItem.m */; };
 		D0F35118211E7F05009641B9 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F35117211E7F05009641B9 /* MyViewController.m */; };
 		D0F3511B211E81B5009641B9 /* MyFatherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F3511A211E81B5009641B9 /* MyFatherViewController.m */; };
 		D0F3511F211E8634009641B9 /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D0F3511D211E8634009641B9 /* MyTableViewCell.m */; };
@@ -96,8 +114,40 @@
 		D02E719721227B9B0007CEC7 /* PlusAnimate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlusAnimate.h; sourceTree = "<group>"; };
 		D02E719921227C020007CEC7 /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
 		D02E719A21227C020007CEC7 /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		D02E719C2122A5B90007CEC7 /* CollectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectViewController.h; sourceTree = "<group>"; };
+		D02E719D2122A5B90007CEC7 /* CollectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectViewController.m; sourceTree = "<group>"; };
+		D02E719F2122AA990007CEC7 /* CollectTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CollectTableViewCell.h; sourceTree = "<group>"; };
+		D02E71A02122AA990007CEC7 /* CollectTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CollectTableViewCell.m; sourceTree = "<group>"; };
+		D02E71A12122AA990007CEC7 /* CollectTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectTableViewCell.xib; sourceTree = "<group>"; };
+		D02E71A92122D2400007CEC7 /* ChooseCourseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChooseCourseViewController.h; sourceTree = "<group>"; };
+		D02E71AA2122D2400007CEC7 /* ChooseCourseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChooseCourseViewController.m; sourceTree = "<group>"; };
+		D02E71B02122D2D60007CEC7 /* CourseTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CourseTableViewController.h; sourceTree = "<group>"; };
+		D02E71B12122D2D60007CEC7 /* CourseTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CourseTableViewController.m; sourceTree = "<group>"; };
 		D03A297D211ED002007626A5 /* NewMainScrollerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewMainScrollerView.h; sourceTree = "<group>"; };
 		D03A297E211ED002007626A5 /* NewMainScrollerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewMainScrollerView.m; sourceTree = "<group>"; };
+		D03D96F62125072F00A42791 /* MoreClassCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoreClassCollectionViewController.h; sourceTree = "<group>"; };
+		D03D96F72125072F00A42791 /* MoreClassCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoreClassCollectionViewController.m; sourceTree = "<group>"; };
+		D03D96FA21250AF100A42791 /* MoreHeaderCollectionReusableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoreHeaderCollectionReusableView.h; sourceTree = "<group>"; };
+		D03D96FB21250AF100A42791 /* MoreHeaderCollectionReusableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoreHeaderCollectionReusableView.m; sourceTree = "<group>"; };
+		D03D96FC21250AF100A42791 /* MoreHeaderCollectionReusableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoreHeaderCollectionReusableView.xib; sourceTree = "<group>"; };
+		D03D96FF21250C4300A42791 /* MoreClassCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoreClassCollectionViewCell.h; sourceTree = "<group>"; };
+		D03D970021250C4300A42791 /* MoreClassCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoreClassCollectionViewCell.m; sourceTree = "<group>"; };
+		D03D970121250C4300A42791 /* MoreClassCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoreClassCollectionViewCell.xib; sourceTree = "<group>"; };
+		D03D970421250EC900A42791 /* MoreFooterCollectionReusableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoreFooterCollectionReusableView.h; sourceTree = "<group>"; };
+		D03D970521250EC900A42791 /* MoreFooterCollectionReusableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoreFooterCollectionReusableView.m; sourceTree = "<group>"; };
+		D03D970621250EC900A42791 /* MoreFooterCollectionReusableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoreFooterCollectionReusableView.xib; sourceTree = "<group>"; };
+		D09ADE532124064400E047CE /* CourseTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CourseTableViewCell.h; sourceTree = "<group>"; };
+		D09ADE542124064400E047CE /* CourseTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CourseTableViewCell.m; sourceTree = "<group>"; };
+		D09ADE552124064400E047CE /* CourseTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CourseTableViewCell.xib; sourceTree = "<group>"; };
+		D09ADE58212410DB00E047CE /* XLSlideSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLSlideSwitch.h; sourceTree = "<group>"; };
+		D09ADE59212410DC00E047CE /* XLSlideSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLSlideSwitch.m; sourceTree = "<group>"; };
+		D09ADE5A212410DC00E047CE /* XLSlideSegmented.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLSlideSegmented.m; sourceTree = "<group>"; };
+		D09ADE5B212410DC00E047CE /* XLSegmentedSlideSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLSegmentedSlideSwitch.h; sourceTree = "<group>"; };
+		D09ADE5C212410DC00E047CE /* XLSegmentedSlideSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLSegmentedSlideSwitch.m; sourceTree = "<group>"; };
+		D09ADE5D212410DD00E047CE /* XLSlideSegmentedItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLSlideSegmentedItem.m; sourceTree = "<group>"; };
+		D09ADE5E212410DD00E047CE /* XLSlideSegmentedItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLSlideSegmentedItem.h; sourceTree = "<group>"; };
+		D09ADE5F212410DD00E047CE /* XLSlideSegmented.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLSlideSegmented.h; sourceTree = "<group>"; };
+		D09ADE60212410DE00E047CE /* XLSlideSwitchDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLSlideSwitchDelegate.h; sourceTree = "<group>"; };
 		D0F35116211E7F05009641B9 /* MyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
 		D0F35117211E7F05009641B9 /* MyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
 		D0F35119211E81B5009641B9 /* MyFatherViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyFatherViewController.h; sourceTree = "<group>"; };
@@ -191,6 +241,61 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		D02E71A72122D21D0007CEC7 /* ChooseCourse */ = {
+			isa = PBXGroup;
+			children = (
+				D02E71AC2122D2650007CEC7 /* View */,
+				D02E71A82122D22C0007CEC7 /* ViewController */,
+			);
+			path = ChooseCourse;
+			sourceTree = "<group>";
+		};
+		D02E71A82122D22C0007CEC7 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D02E71A92122D2400007CEC7 /* ChooseCourseViewController.h */,
+				D02E71AA2122D2400007CEC7 /* ChooseCourseViewController.m */,
+				D02E71B02122D2D60007CEC7 /* CourseTableViewController.h */,
+				D02E71B12122D2D60007CEC7 /* CourseTableViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		D02E71AC2122D2650007CEC7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D09ADE58212410DB00E047CE /* XLSlideSwitch.h */,
+				D09ADE59212410DC00E047CE /* XLSlideSwitch.m */,
+				D09ADE5B212410DC00E047CE /* XLSegmentedSlideSwitch.h */,
+				D09ADE5C212410DC00E047CE /* XLSegmentedSlideSwitch.m */,
+				D09ADE60212410DE00E047CE /* XLSlideSwitchDelegate.h */,
+				D09ADE5F212410DD00E047CE /* XLSlideSegmented.h */,
+				D09ADE5A212410DC00E047CE /* XLSlideSegmented.m */,
+				D09ADE5E212410DD00E047CE /* XLSlideSegmentedItem.h */,
+				D09ADE5D212410DD00E047CE /* XLSlideSegmentedItem.m */,
+				D09ADE532124064400E047CE /* CourseTableViewCell.h */,
+				D09ADE542124064400E047CE /* CourseTableViewCell.m */,
+				D09ADE552124064400E047CE /* CourseTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D03D96F921250A3F00A42791 /* MoreClass */ = {
+			isa = PBXGroup;
+			children = (
+				D03D96FA21250AF100A42791 /* MoreHeaderCollectionReusableView.h */,
+				D03D96FB21250AF100A42791 /* MoreHeaderCollectionReusableView.m */,
+				D03D96FC21250AF100A42791 /* MoreHeaderCollectionReusableView.xib */,
+				D03D96FF21250C4300A42791 /* MoreClassCollectionViewCell.h */,
+				D03D970021250C4300A42791 /* MoreClassCollectionViewCell.m */,
+				D03D970121250C4300A42791 /* MoreClassCollectionViewCell.xib */,
+				D03D970421250EC900A42791 /* MoreFooterCollectionReusableView.h */,
+				D03D970521250EC900A42791 /* MoreFooterCollectionReusableView.m */,
+				D03D970621250EC900A42791 /* MoreFooterCollectionReusableView.xib */,
+			);
+			path = MoreClass;
+			sourceTree = "<group>";
+		};
 		D0F35112211E7EAC009641B9 /* My */ = {
 			isa = PBXGroup;
 			children = (
@@ -210,6 +315,8 @@
 				D0F3511A211E81B5009641B9 /* MyFatherViewController.m */,
 				D02E7177212269D80007CEC7 /* SetTableViewController.h */,
 				D02E7178212269D80007CEC7 /* SetTableViewController.m */,
+				D02E719C2122A5B90007CEC7 /* CollectViewController.h */,
+				D02E719D2122A5B90007CEC7 /* CollectViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -223,6 +330,9 @@
 				D0F35121211E8A24009641B9 /* MyHeaderView.h */,
 				D0F35122211E8A24009641B9 /* MyHeaderView.m */,
 				D0F35124211E8A42009641B9 /* MyHeaderView.xib */,
+				D02E719F2122AA990007CEC7 /* CollectTableViewCell.h */,
+				D02E71A02122AA990007CEC7 /* CollectTableViewCell.m */,
+				D02E71A12122AA990007CEC7 /* CollectTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -259,6 +369,7 @@
 		D0F8CE8F211D59C200572151 /* Education */ = {
 			isa = PBXGroup;
 			children = (
+				D02E71A72122D21D0007CEC7 /* ChooseCourse */,
 				D0F35112211E7EAC009641B9 /* My */,
 				D0F8CECF211D642F00572151 /* Main */,
 				D0F8CECD211D5A4100572151 /* PublishViewController.h */,
@@ -337,6 +448,8 @@
 			children = (
 				D0F8CED9211D67B100572151 /* MainViewController.h */,
 				D0F8CEDA211D67B100572151 /* MainViewController.m */,
+				D03D96F62125072F00A42791 /* MoreClassCollectionViewController.h */,
+				D03D96F72125072F00A42791 /* MoreClassCollectionViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -344,6 +457,7 @@
 		D0F8CED1211D644900572151 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D03D96F921250A3F00A42791 /* MoreClass */,
 				D03A297D211ED002007626A5 /* NewMainScrollerView.h */,
 				D03A297E211ED002007626A5 /* NewMainScrollerView.m */,
 				D0F8CEE9211D743300572151 /* UIView.h */,
@@ -480,14 +594,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0F8CE9D211D59C500572151 /* LaunchScreen.storyboard in Resources */,
+				D09ADE572124064400E047CE /* CourseTableViewCell.xib in Resources */,
 				D0F35120211E8634009641B9 /* MyTableViewCell.xib in Resources */,
+				D03D96FE21250AF100A42791 /* MoreHeaderCollectionReusableView.xib in Resources */,
 				D02E717B21226C1E0007CEC7 /* My.storyboard in Resources */,
 				D0F35125211E8A42009641B9 /* MyHeaderView.xib in Resources */,
+				D02E71A32122AA990007CEC7 /* CollectTableViewCell.xib in Resources */,
 				D02E719121227B920007CEC7 /* CYTabBar.bundle in Resources */,
 				D0F8CE9A211D59C500572151 /* Assets.xcassets in Resources */,
+				D03D970321250C4300A42791 /* MoreClassCollectionViewCell.xib in Resources */,
 				D0F8CEE3211D6A6200572151 /* MainCollectionReusableView.xib in Resources */,
 				D0F8CEE8211D72FA00572151 /* MainCollectionViewCell.xib in Resources */,
 				D0F8CE98211D59C200572151 /* Main.storyboard in Resources */,
+				D03D970821250EC900A42791 /* MoreFooterCollectionReusableView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -663,22 +782,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D02E71AB2122D2400007CEC7 /* ChooseCourseViewController.m in Sources */,
+				D02E71B22122D2D60007CEC7 /* CourseTableViewController.m in Sources */,
 				D0F3511F211E8634009641B9 /* MyTableViewCell.m in Sources */,
 				D02E719521227B920007CEC7 /* CYTabBarController.m in Sources */,
 				D03A297F211ED002007626A5 /* NewMainScrollerView.m in Sources */,
+				D03D970721250EC900A42791 /* MoreFooterCollectionReusableView.m in Sources */,
 				D0F3511B211E81B5009641B9 /* MyFatherViewController.m in Sources */,
 				D02E719221227B920007CEC7 /* UITabBarItem+BadgeColor.m in Sources */,
 				D02E719821227B9B0007CEC7 /* PlusAnimate.m in Sources */,
+				D09ADE562124064400E047CE /* CourseTableViewCell.m in Sources */,
 				D02E719321227B920007CEC7 /* CYCenterButton.m in Sources */,
+				D09ADE64212410DE00E047CE /* XLSlideSegmentedItem.m in Sources */,
 				D0F8CEA0211D59C500572151 /* main.m in Sources */,
 				D02E719421227B920007CEC7 /* CYBadgeView.m in Sources */,
 				D0F8CECE211D5A4200572151 /* PublishViewController.m in Sources */,
 				D02E718D21227B920007CEC7 /* CYTabBarConfig.m in Sources */,
 				D02E718F21227B920007CEC7 /* CYTabBar.m in Sources */,
+				D02E719E2122A5B90007CEC7 /* CollectViewController.m in Sources */,
 				D0F8CE92211D59C200572151 /* AppDelegate.m in Sources */,
 				D0F8CEDB211D67B100572151 /* MainViewController.m in Sources */,
 				D02E7179212269D80007CEC7 /* SetTableViewController.m in Sources */,
+				D03D96FD21250AF100A42791 /* MoreHeaderCollectionReusableView.m in Sources */,
+				D09ADE61212410DE00E047CE /* XLSlideSwitch.m in Sources */,
+				D02E71A22122AA990007CEC7 /* CollectTableViewCell.m in Sources */,
 				D0F35118211E7F05009641B9 /* MyViewController.m in Sources */,
+				D03D970221250C4300A42791 /* MoreClassCollectionViewCell.m in Sources */,
+				D09ADE63212410DE00E047CE /* XLSegmentedSlideSwitch.m in Sources */,
+				D03D96F82125072F00A42791 /* MoreClassCollectionViewController.m in Sources */,
 				D0F35123211E8A24009641B9 /* MyHeaderView.m in Sources */,
 				D02E718E21227B920007CEC7 /* UINavigationController+hidesBottomBarWhenPushed.m in Sources */,
 				D02E719021227B920007CEC7 /* CYButton.m in Sources */,
@@ -687,6 +818,7 @@
 				D02E719B21227C020007CEC7 /* TabBarController.m in Sources */,
 				D0F8CEEB211D743400572151 /* UIView.m in Sources */,
 				D0F8CED8211D65F100572151 /* XPNavigationBarTranslucent.m in Sources */,
+				D09ADE62212410DE00E047CE /* XLSlideSegmented.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

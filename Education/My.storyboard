@@ -6,6 +6,39 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
-    <scenes/>
+    <scenes>
+        <!--Collect View Controller-->
+        <scene sceneID="BoR-xg-SFF">
+            <objects>
+                <viewController storyboardIdentifier="Collect_ID" id="vJK-bE-fag" customClass="CollectViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="CEB-sa-mIz">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="NcG-6o-TVg">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="NcG-6o-TVg" firstAttribute="trailing" secondItem="LUW-hP-sUE" secondAttribute="trailing" id="V32-MK-09J"/>
+                            <constraint firstItem="NcG-6o-TVg" firstAttribute="leading" secondItem="LUW-hP-sUE" secondAttribute="leading" id="jfR-xg-QS6"/>
+                            <constraint firstItem="NcG-6o-TVg" firstAttribute="top" secondItem="CEB-sa-mIz" secondAttribute="top" id="y7w-D3-gY0"/>
+                            <constraint firstItem="NcG-6o-TVg" firstAttribute="bottom" secondItem="LUW-hP-sUE" secondAttribute="bottom" id="za7-7k-ZBA"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="LUW-hP-sUE"/>
+                    </view>
+                    <connections>
+                        <outlet property="collect_tableview" destination="NcG-6o-TVg" id="YlR-G2-f8Z"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aww-w8-TED" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="213.59999999999999" y="-182.15892053973016"/>
+        </scene>
+    </scenes>
 </document>

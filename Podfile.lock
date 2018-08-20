@@ -20,6 +20,9 @@ PODS:
   - SDWebImage (4.4.2):
     - SDWebImage/Core (= 4.4.2)
   - SDWebImage/Core (4.4.2)
+  - VTMagic (1.2.4):
+    - VTMagic/Core (= 1.2.4)
+  - VTMagic/Core (1.2.4)
 
 DEPENDENCIES:
   - AFNetworking
@@ -27,6 +30,7 @@ DEPENDENCIES:
   - MJRefresh
   - ProgressHUD
   - SDWebImage (~> 4.0)
+  - VTMagic
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
@@ -34,7 +38,8 @@ SPEC CHECKSUMS:
   MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
   ProgressHUD: 54b4c2fa202bf3da7dddc1c698ae4e6376333bd9
   SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+  VTMagic: b49e5f456dbcbfd9a3588ba92417233a105bc193
 
-PODFILE CHECKSUM: 585cb10f9ef9af59a42279833a6f8e673c7498bb
+PODFILE CHECKSUM: adb84251e15050eb267ebf677eb9d02ba620f37f
 
 COCOAPODS: 1.3.1

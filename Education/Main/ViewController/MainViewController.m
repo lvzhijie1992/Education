@@ -10,6 +10,7 @@
 #import "XPNavigationBarTranslucent.h"
 #import "MainCollectionViewCell.h"
 #import "MainCollectionReusableView.h"
+#import "MoreClassCollectionViewController.h"
 
 @interface MainViewController ()<UICollectionViewDelegate,UICollectionViewDataSource>
 @property (weak, nonatomic) IBOutlet UICollectionView *main_collectionview;
@@ -86,6 +87,12 @@
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
     MainCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"maincell" forIndexPath:indexPath];
     return cell;
+}
+
+- (void) collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    MoreClassCollectionViewController *more_VC = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"MoreClass_ID"];
+    [self.navigationController pushViewController:more_VC animated:YES];
 }
 
 #pragma mark <UICollectionViewDelegate>

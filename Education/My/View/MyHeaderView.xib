@@ -118,6 +118,12 @@
                                     <nil key="textColor"/>
                                     <nil key="highlightedColor"/>
                                 </label>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IH7-Z5-qVf">
+                                    <rect key="frame" x="0.0" y="0.0" width="106" height="85"/>
+                                    <connections>
+                                        <action selector="collectBtn_click:" destination="iN0-l3-epB" eventType="touchUpInside" id="kQv-t3-0N1"/>
+                                    </connections>
+                                </button>
                             </subviews>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <constraints>
@@ -126,7 +132,11 @@
                                 <constraint firstItem="kWy-1p-4e8" firstAttribute="centerX" secondItem="7nF-iA-MH6" secondAttribute="centerX" id="NgR-Fd-MAQ"/>
                                 <constraint firstAttribute="trailing" secondItem="ap4-IB-b1H" secondAttribute="trailing" constant="4" id="Y4s-eo-d1u"/>
                                 <constraint firstItem="ap4-IB-b1H" firstAttribute="leading" secondItem="7nF-iA-MH6" secondAttribute="leading" constant="4" id="eWy-Fl-R1b"/>
+                                <constraint firstAttribute="trailing" secondItem="IH7-Z5-qVf" secondAttribute="trailing" id="jNy-kj-obj"/>
+                                <constraint firstItem="IH7-Z5-qVf" firstAttribute="leading" secondItem="7nF-iA-MH6" secondAttribute="leading" id="l1C-v6-DmK"/>
+                                <constraint firstAttribute="bottom" secondItem="IH7-Z5-qVf" secondAttribute="bottom" id="n7B-y2-Ave"/>
                                 <constraint firstItem="kWy-1p-4e8" firstAttribute="top" secondItem="7nF-iA-MH6" secondAttribute="top" constant="14" id="tk9-66-DrD"/>
+                                <constraint firstItem="IH7-Z5-qVf" firstAttribute="top" secondItem="7nF-iA-MH6" secondAttribute="top" id="vR6-7U-ipq"/>
                             </constraints>
                         </view>
                     </subviews>

@@ -16,6 +16,8 @@
 #import "MyTableViewCell.h"
 #import "MyHeaderView.h"
 #import "SetTableViewController.h"
+#import "CollectViewController.h"
+#import "CollectViewController.h"
 
 @interface MyViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (strong ,nonatomic) UIImageView *headImageView;
@@ -31,7 +33,7 @@
     if(!_headImageView)
     {
         _headImageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, kSCREENWIDTH, HEADERIMAGEVIEWH)];
-        _headImageView.image = [UIImage imageNamed:@"1"];
+        _headImageView.image = [UIImage imageNamed:@"0"];
     }
     return _headImageView;
 }
@@ -81,6 +83,16 @@
     [self.view addSubview:self.tableview];
     self.view.backgroundColor = [UIColor colorWithRed:249/255.0 green:249/255.0 blue:249/255.0 alpha:1.0];
     self.tableview.tableHeaderView = self.headerView;
+    [self block_click];
+}
+
+- (void)block_click
+{
+    __weak typeof(self) weakself = self;
+    self.headerView.collect_click = ^{
+        CollectViewController *collect_VC = [[UIStoryboard storyboardWithName:@"My" bundle:nil] instantiateViewControllerWithIdentifier:@"Collect_ID"];
+        [weakself.navigationController pushViewController:collect_VC animated:YES];
+    };
 }
 
 - (NSInteger) numberOfSectionsInTableView:(UITableView *)tableView

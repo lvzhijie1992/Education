@@ -12,16 +12,14 @@
 
 @end
 
-@implementation MyFatherViewController///efefefe回顾huhuhu你今年就不接过一天一天有一天一天
+@implementation MyFatherViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 - (void) viewWillAppear:(BOOL)animated

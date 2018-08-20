@@ -10,6 +10,7 @@ pod 'AFNetworking'
 pod 'ProgressHUD'
 pod 'MJRefresh'
 pod 'MBProgressHUD'
+pod 'VTMagic'
 pod 'SDWebImage', '~> 4.0'
 target 'EducationTests' do
 inherit! :search_paths

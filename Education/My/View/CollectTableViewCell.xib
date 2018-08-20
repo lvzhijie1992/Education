@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="CollectTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="99.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="测试" translatesAutoresizingMaskIntoConstraints="NO" id="EJ3-Jz-EGJ">
+                        <rect key="frame" x="10" y="10" width="118" height="79.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="118" id="Ib5-1h-T93"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="成功之路：从新手到大神养成记" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UZK-Uf-CS6">
+                        <rect key="frame" x="136" y="10" width="174" height="36"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="36" id="aZN-x2-shb"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="类型：线上课程" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3cJ-kg-aZN">
+                        <rect key="frame" x="136" y="51" width="93" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="7yP-iu-nJK"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="价格" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ySP-KB-yzs">
+                        <rect key="frame" x="136" y="73" width="27" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="qJb-4G-Git"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="¥0.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="agM-or-51U">
+                        <rect key="frame" x="166" y="73" width="40.5" height="16"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="16" id="X5N-qL-6ws"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.95762556789999997" green="0.63141590359999999" blue="0.24922832850000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="3cJ-kg-aZN" firstAttribute="leading" secondItem="EJ3-Jz-EGJ" secondAttribute="trailing" constant="8" id="6xm-fI-cxs"/>
+                    <constraint firstItem="3cJ-kg-aZN" firstAttribute="top" secondItem="UZK-Uf-CS6" secondAttribute="bottom" constant="5" id="8vj-zO-2cu"/>
+                    <constraint firstAttribute="bottom" secondItem="agM-or-51U" secondAttribute="bottom" constant="10" id="LkS-Je-f1J"/>
+                    <constraint firstItem="EJ3-Jz-EGJ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="WDv-2e-SDJ"/>
+                    <constraint firstAttribute="bottom" secondItem="ySP-KB-yzs" secondAttribute="bottom" constant="10" id="gwJ-Ph-YhA"/>
+                    <constraint firstItem="UZK-Uf-CS6" firstAttribute="leading" secondItem="EJ3-Jz-EGJ" secondAttribute="trailing" constant="8" id="hu9-B9-60M"/>
+                    <constraint firstItem="agM-or-51U" firstAttribute="leading" secondItem="ySP-KB-yzs" secondAttribute="trailing" constant="3" id="pFk-OU-Jcf"/>
+                    <constraint firstItem="UZK-Uf-CS6" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="qOJ-d2-tHR"/>
+                    <constraint firstAttribute="bottom" secondItem="EJ3-Jz-EGJ" secondAttribute="bottom" constant="10" id="qOg-Be-bIe"/>
+                    <constraint firstAttribute="trailing" secondItem="UZK-Uf-CS6" secondAttribute="trailing" constant="10" id="qdG-Zg-gL4"/>
+                    <constraint firstItem="ySP-KB-yzs" firstAttribute="leading" secondItem="EJ3-Jz-EGJ" secondAttribute="trailing" constant="8" id="sbG-09-9vk"/>
+                    <constraint firstItem="EJ3-Jz-EGJ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="thM-Aj-hBk"/>
+                </constraints>
+            </tableViewCellContentView>
+            <constraints>
+                <constraint firstItem="EJ3-Jz-EGJ" firstAttribute="centerY" secondItem="aW0-zy-SZf" secondAttribute="centerY" id="Vll-Dy-kew"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="测试" width="146" height="85"/>
+    </resources>
+</document>

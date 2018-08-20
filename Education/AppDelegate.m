@@ -14,7 +14,7 @@
 #import "TabBarController.h"
 #import "MainViewController.h"
 #import "MyViewController.h"
-#import "PublishViewController.h"
+#import "ChooseCourseViewController.h"
 
 @interface AppDelegate ()
 
@@ -65,7 +65,7 @@
     [tabbar addChildController:nav1 title:@"发现" imageName:@"Btn01" selectedImageName:@"SelectBtn01"];
     UINavigationController *nav2 = [[UINavigationController alloc]initWithRootViewController:[MyViewController new]];
     [tabbar addChildController:nav2 title:@"我的" imageName:@"Btn01" selectedImageName:@"SelectBtn01"];
-    UINavigationController *nav3 = [[UINavigationController alloc]initWithRootViewController:[PublishViewController new]];
+    UINavigationController *nav3 = [[UINavigationController alloc]initWithRootViewController:[ChooseCourseViewController new]];
      [tabbar addCenterController:nav3 bulge:YES title:@"选课" imageName:@"post_normal" selectedImageName:@"post_normal"];
 }
 

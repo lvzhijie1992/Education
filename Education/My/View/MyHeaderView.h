@@ -10,5 +10,7 @@
 
 @interface MyHeaderView : UIView
 @property (weak, nonatomic) IBOutlet UIView *detailView;
+- (IBAction)collectBtn_click:(id)sender;
+@property (strong ,nonatomic) void (^collect_click)(void);
 
 @end
