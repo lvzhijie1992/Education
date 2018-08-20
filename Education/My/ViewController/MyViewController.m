@@ -26,7 +26,7 @@
 @property (strong ,nonatomic) MyHeaderView *headerView;
 @end
 
-@implementation MyViewController///
+@implementation MyViewController////////
 
 - (UIImageView *)headImageView
 {
